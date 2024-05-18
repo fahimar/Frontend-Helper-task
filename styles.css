@@ -1,0 +1,39 @@
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.circle-1 {
+  height: 500px;
+  width: 500px;
+  border: 40px solid red;
+  border-radius: 5000px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle-2 {
+  height: 425px;
+  width: 425px;
+  border: 40px solid green;
+  border-radius: 5000px;
+  position: relative;
+}
+
+.text {
+  display: flex;
+  color: white;
+  font-size: 50px;
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
